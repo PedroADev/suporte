@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 588px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.ticket-info {
+    margin: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.ticket-info h2 {
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ticket-info .resumo {
+    margin: 5px 0px 30px 0px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.ticket-info .descricao {
+    margin: 5px 0px 30px 0px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.ticket-info .anexos {
+    margin: 5px 0px 30px 0px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.responses_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 0px 40px;
+}
+
+.responses .response {
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 50px 0px 50px;
+}
+
+.response-header strong {
+    font-size: 25px;
+
+}
+
+.responses p {
+    font-size: 20px;
+    margin: 0px 10px 10px 60px;
+    padding: 10px;
+
+}
+
+.response-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.response-header .company-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px 10px 50px
+}
+
+.buttons .back-button {
+    background-color: #ff4b5c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 45%;
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .reply-button {
+    background-color: #0D273D;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 45%;
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .back-button:hover, .buttons .reply-button:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .container {
+        border-radius: 16px;
+        overflow: hidden;
+    }
+}
